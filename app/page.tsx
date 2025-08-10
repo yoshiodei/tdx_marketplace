@@ -179,74 +179,79 @@ export default function HomePage() {
             Featured commodities
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="overflow-hidden">
-              <div className="aspect-video relative">
-                <Image 
-                  src="/corn-kernels.png" 
-                  alt="Maize" 
-                  width={300} 
-                  height={200} 
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Maize</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Available in 5 locations<br />
-                  500+ MT available<br />
-                  Starting from ₦180/kg
-                </p>
-                <Button variant="outline" className="w-full">
-                  View details
-                </Button>
-              </CardContent>
-            </Card>
 
-            <Card className="overflow-hidden">
-              <div className="aspect-video relative">
-                <Image 
-                  src="/placeholder-y17cz.png" 
-                  alt="Cashew" 
-                  width={300} 
-                  height={200} 
-                  className="object-cover w-full h-full"
-                />
-              </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Cashew</h3>
-                <p className="text-gray-600 text-sm mb-4">
-                  Available in 3 locations<br />
-                  100+ MT available<br />
-                  Starting from ₦800/kg
-                </p>
-                <Button variant="outline" className="w-full">
-                  View details
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden">
-              <div className="aspect-video relative">
-                <Image 
+            <Card className="overflow-hidden p-0">
+              <div className="aspect-video relative p-[20px] pb-0">
+                <div className='w-full h-[200px] rounded bg-slate-100'></div>
+                {/* <Image 
                   src="/placeholder-nll04.png" 
                   alt="Cassava" 
                   width={300} 
                   height={200} 
                   className="object-cover w-full h-full"
-                />
+                /> */}
               </div>
-              <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Cassava</h3>
+              <CardContent className="p-6 pt-0">
+                <h3 className="text-xl font-semibold mb-2">Maize</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  Available in 4 locations<br />
-                  200+ MT available<br />
-                  Starting from ₦120/kg
+                  Available in 5 locations<br />
+                  500+ MT available<br />
+                  Starting from Ghc180/kg
                 </p>
                 <Button variant="outline" className="w-full">
                   View details
                 </Button>
               </CardContent>
             </Card>
+
+            <Card className="overflow-hidden p-0">
+              <div className="aspect-video relative p-[20px] pb-0">
+                <div className='w-full h-[200px] rounded bg-slate-100'></div>
+                {/* <Image 
+                  src="/placeholder-nll04.png" 
+                  alt="Cassava" 
+                  width={300} 
+                  height={200} 
+                  className="object-cover w-full h-full"
+                /> */}
+              </div>
+              <CardContent className="p-6 pt-0">
+                <h3 className="text-xl font-semibold mb-2">Cashew</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Available in 3 locations<br />
+                  100+ MT available<br />
+                  Starting from Ghc800/kg
+                </p>
+                <Button variant="outline" className="w-full">
+                  View details
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden p-0">
+              <div className="aspect-video relative p-[20px] pb-0">
+                <div className='w-full h-[200px] rounded bg-slate-100'></div>
+                {/* <Image 
+                  src="/placeholder-nll04.png" 
+                  alt="Cassava" 
+                  width={300} 
+                  height={200} 
+                  className="object-cover w-full h-full"
+                /> */}
+              </div>
+              <CardContent className="p-6 pt-0">
+                <h3 className="text-xl font-semibold mb-2">Cassava</h3>
+                <p className="text-gray-600 text-sm mb-4">
+                  Available in 4 locations<br />
+                  200+ MT available<br />
+                  Starting from Ghc120/kg
+                </p>
+                <Button variant="outline" className="w-full">
+                  View details
+                </Button>
+              </CardContent>
+            </Card>
+
           </div>
         </div>
       </section>
@@ -490,8 +495,8 @@ export default function HomePage() {
               <h3 className="font-semibold mb-4">Address</h3>
               <p className="text-sm text-white/80">
                 123 Agriculture Street<br />
-                Lagos, Nigeria<br />
-                +234 123 456 789
+                Accra, Ghana<br />
+                +233 123 456 789
               </p>
             </div>
 
