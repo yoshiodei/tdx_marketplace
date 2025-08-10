@@ -8,7 +8,7 @@ const containerStyle = {
 };
 
 const start = {
-  lat: 5.5636, // Kaneshie, Accra 
+  lat: 5.5636, // Kaneshie, Accra
   lng: -0.2349,
 };
 
